@@ -1,0 +1,33 @@
+[[package]]
+name = "easing-functions"
+version = "1.0.4"
+description = "A collection of the basic easing functions for python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "superturtle"
+version = "0.0.2"
+description = "Extensions to Python's turtle"
+category = "main"
+optional = false
+python-versions = ">=3.9,<4.0"
+
+[package.dependencies]
+easing-functions = ">=1.0.4,<2.0.0"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "1dd0f13e36a15cf6a299d498755dc868d0bfc7e1d2bb2a7bd3468be76cda4876"
+
+[metadata.files]
+easing-functions = [
+    {file = "easing_functions-1.0.4-py3-none-any.whl", hash = "sha256:27f2ce64adecde3d2d90d503ad564fc944e8f20221ba2eacf96be37c28c7ae4b"},
+    {file = "easing_functions-1.0.4.tar.gz", hash = "sha256:e18c7931d445b85f28c4d15ad0a9a47bb65d4e2eefc0db3840448fae25e3f9de"},
+]
+superturtle = [
+    {file = "superturtle-0.0.2-py3-none-any.whl", hash = "sha256:5627eca777e8f88f706d6dcb2935a91273b34921c572288f0f1d8cdbd964ac6d"},
+    {file = "superturtle-0.0.2.tar.gz", hash = "sha256:7a959b1128544d5cd907dbb424b96a71baa7ffeced0fbda6f5d90db6716a08e9"},
+]
